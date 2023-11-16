@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: spring-boot-example
-          image: salman1091/skaffold-spring-boot-example
+          image: eyesoncloud/skaffold-spring-boot-example
           ports:
             - containerPort: 8080
