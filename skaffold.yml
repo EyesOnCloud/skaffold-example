@@ -2,7 +2,7 @@ apiVersion: skaffold/v1
 kind: Config
 build:
   artifacts:
-    - image: salman1091/skaffold-spring-boot-example
+    - image: eyesoncloud/skaffold-spring-boot-example
       jib: {}
   local: {}
 
