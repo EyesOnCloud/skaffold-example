@@ -11,6 +11,4 @@ spec:
       protocol: TCP
   selector:
     app: spring-boot-example
-  type: LoadBalancer
-  externalIPs: # Add this section to specify your host's IP address
-    - 192.168.100.11
+  type: NodePort
